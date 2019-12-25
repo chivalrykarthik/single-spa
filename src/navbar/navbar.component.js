@@ -56,62 +56,28 @@ export default class Navbar extends React.Component {
 function menuItems() {
   return (
     <div>
-      <FrameworkInspector />
+    
       <li>
         <a onClick={() => this.navigateTo("/")}>
           Home
         </a>
       </li>
       <li>
-        <a onClick={() => this.navigateTo("/react")}>
-          React
+        <a onClick={() => this.navigateTo("/about")}>
+          About
         </a>
       </li>
       <li>
-        <a onClick={() => this.navigateTo("/angularjs")}>
-          AngularJS
+        <a onClick={() => this.navigateTo("/counter")}>
+          Counter
         </a>
       </li>
       <li>
-        <a onClick={() => this.navigateTo("/angular")}>
-          Angular
+        <a onClick={() => this.navigateTo("/lazyCounter")}>
+          LazyCounter
         </a>
       </li>
-      <li>
-        <a onClick={() => this.navigateTo("/vue")}>
-          Vue.js
-        </a>
-      </li>
-      <li>
-        <a onClick={() => this.navigateTo("/svelte")}>
-          Svelte
-        </a>
-      </li>
-      <li>
-        <a onClick={() => this.navigateTo("/cyclejs")}>
-          CycleJS
-        </a>
-      </li>
-      <li>
-        <a onClick={() => this.navigateTo("/preact")}>
-          Preact
-        </a>
-      </li>
-      <li>
-        <a onClick={() => this.navigateTo("/vanilla")}>
-          Vanilla
-        </a>
-      </li>
-      <li>
-        <a onClick={() => this.navigateTo("/inferno")}>
-          Inferno
-        </a>
-      </li>
-      <li>
-        <a onClick={() => this.navigateTo("/ember")}>
-          Ember
-        </a>
-      </li>
+     
     </div>
   )
 }
