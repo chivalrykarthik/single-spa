@@ -6,7 +6,8 @@ declareChildApplication('home', () => import('./home/home.app.js'), () => locati
 declareChildApplication('about', () => import('./about/about.app.js'), pathPrefix("/about"));
 declareChildApplication('counter', () => import('./counter/counter.app.js'), pathPrefix("/counter"));
 declareChildApplication('lazyCounter', () => import('./lazyCounter/lazyCounter.app.js'), pathPrefix("/lazyCounter"));
-
+declareChildApplication('showUser', () => import('./showUser/showUser.app.js'), pathPrefix("/showUser"));
+declareChildApplication('updateUser', () => import('./updateUser/updateUser.app.js'), pathPrefix("/updateUser"));
 start();
 
 function pathPrefix(prefix) {

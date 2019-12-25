@@ -77,6 +77,17 @@ function menuItems() {
           LazyCounter
         </a>
       </li>
+
+      <li>
+        <a onClick={() => this.navigateTo("/showUser")}>
+          ShowUser
+        </a>
+      </li>
+      <li>
+        <a onClick={() => this.navigateTo("/updateUser")}>
+          UpdateUser
+        </a>
+      </li>
      
     </div>
   )
